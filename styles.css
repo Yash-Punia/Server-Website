@@ -1,0 +1,54 @@
+/* Navigation Bar */
+.navbar-brand{
+  font-size: 30px;
+  font-family:"Montserrat";
+  font-weight: 700;
+}
+
+.navbar{
+  width: 100%;
+}
+
+.nav-item{
+  margin: 0 15px;
+  font-size: 20px;
+}
+
+/* Neeko Image */
+.neeko-img{
+    position:relative;
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+/* Front Page Heading */
+.front-page-heading{
+  position: absolute;
+  top: 150px;
+
+}
+.front-page-text{
+  font-family: 'Major Mono Display', monospace;
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-width: 2.00px;
+  margin: 4% 0 25% 30%;
+  font-weight: 900;
+  font-size: 4rem;
+}
+
+@media (max-width: 600px){
+  .front-page-text{
+    font-size: 2rem;
+    position: relative;
+    top: 0;
+    margin: 20px;
+  }
+  .front-page-heading{
+    padding-bottom: 20px;
+    top: 100px;
+  }
+}

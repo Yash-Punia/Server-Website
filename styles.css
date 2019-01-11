@@ -5,6 +5,12 @@
   font-weight: 700;
 }
 
+/* body {
+  background: url("Images/Neeko.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+
 .navbar{
   width: 100%;
 }
@@ -25,22 +31,41 @@
 }
 
 /* Front Page Heading */
-.front-page-heading{
+.front-page-heading {
+  background: url("Images/Neeko.jpg");
+  background-size: cover;
+  margin: 0 auto;
+  width: 100%;
+  max-height: 900px;
+  display: block;
+  position: relative;
+  padding-bottom: 10%;
+}
+
+.front-page-text {
+  font-family: 'Major Mono Display', monospace;
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-width: 2.00px;
+  font-weight: 900;
+  font-size: 7vw;
+  margin-left: 30px;
+}
+/* .front-page-heading{
   position: absolute;
   top: 150px;
-
-}
-.front-page-text{
+  /* font-size: 8vw; *
+}*/
+/* .front-page-text{
   font-family: 'Major Mono Display', monospace;
   -webkit-text-fill-color: black;
   -webkit-text-stroke-color: white;
   -webkit-text-stroke-width: 2.00px;
   margin: 4% 0 25% 30%;
   font-weight: 900;
-  font-size: 4rem;
-}
+} */
 
-@media (max-width: 600px){
+/* @media (max-width: 600px){
   .front-page-text{
     font-size: 2rem;
     position: relative;
@@ -51,4 +76,4 @@
     padding-bottom: 20px;
     top: 100px;
   }
-}
+} */
